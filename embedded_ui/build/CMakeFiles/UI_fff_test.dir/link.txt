@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/UI_fff_test.dir/src/UI_test_cpp.cpp.o -o UI_fff_test  libLibEmbedded.a -lgtest -lpthread 

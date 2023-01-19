@@ -1,2 +1,0 @@
-/usr/bin/ar qc libLibDriver.a CMakeFiles/LibDriver.dir/src/driver.c.o
-/usr/bin/ranlib libLibDriver.a
