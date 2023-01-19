@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibEmbedded.a CMakeFiles/LibEmbedded.dir/src/UI.c.o
+/usr/bin/ranlib libLibEmbedded.a

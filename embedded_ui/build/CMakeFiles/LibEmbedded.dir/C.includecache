@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DISPLAY.h
+
+../include/SYSTEM.h
+
+../include/UI.h
+
+/home/vany/FFF_UnitTest/example/embedded_ui/src/UI.c
+UI.h
+/home/vany/FFF_UnitTest/example/embedded_ui/src/UI.h
+DISPLAY.h
+/home/vany/FFF_UnitTest/example/embedded_ui/src/DISPLAY.h
+SYSTEM.h
+/home/vany/FFF_UnitTest/example/embedded_ui/src/SYSTEM.h
+string.h
+-
+

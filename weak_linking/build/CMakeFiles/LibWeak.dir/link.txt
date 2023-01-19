@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibWeak.a CMakeFiles/LibWeak.dir/src/bus.c.o CMakeFiles/LibWeak.dir/src/display.c.o CMakeFiles/LibWeak.dir/src/error.c.o CMakeFiles/LibWeak.dir/src/main.c.o CMakeFiles/LibWeak.dir/src/sensor.c.o
+/usr/bin/ranlib libLibWeak.a

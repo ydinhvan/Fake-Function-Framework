@@ -1,0 +1,4 @@
+/home/vany/FFF_UnitTest/example/embedded_ui/build/CMakeFiles/rebuild_cache.dir
+/home/vany/FFF_UnitTest/example/embedded_ui/build/CMakeFiles/edit_cache.dir
+/home/vany/FFF_UnitTest/example/embedded_ui/build/CMakeFiles/UI_fff_test.dir
+/home/vany/FFF_UnitTest/example/embedded_ui/build/CMakeFiles/LibEmbedded.dir

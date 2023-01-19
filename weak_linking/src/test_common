@@ -1,0 +1,19 @@
+#include "test_common.h"
+
+void init_test()
+{
+    FAKE_VALUE_FUNC(bool, bus_read_write, uint8_t, uint8_t, uint8_t*, int, bool);
+    FAKE_VALUE_FUNC(bool, bus_write, uint8_t, uint8_t, const uint8_t*, int, bool);
+    FAKE_VOID_FUNC(runtime_error, const char*);
+
+    class Test_Main: public testing::Test
+    {
+    void SetUp()
+    {
+        RESET_FAKE(bus_read_write);
+        RESET_FAKE(bus_write);
+        RESET_FAKE(runtime_error);
+        FFF_RESET_HISTORY();
+    }
+    };
+}

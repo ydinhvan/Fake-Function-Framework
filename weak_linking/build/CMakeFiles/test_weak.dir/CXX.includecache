@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/bus.h
+error.h
+../include/error.h
+
+../include/display.h
+error.h
+../include/error.h
+
+../include/error.h
+stdint.h
+-
+stdbool.h
+-
+
+../include/fff.h
+stdarg.h
+-
+string.h
+-
+
+../include/sensor.h
+error.h
+../include/error.h
+
+/home/vany/FFF_UnitTest/example/weak_linking/src/test.cpp
+bus.h
+/home/vany/FFF_UnitTest/example/weak_linking/src/bus.h
+display.h
+/home/vany/FFF_UnitTest/example/weak_linking/src/display.h
+error.h
+/home/vany/FFF_UnitTest/example/weak_linking/src/error.h
+sensor.h
+/home/vany/FFF_UnitTest/example/weak_linking/src/sensor.h
+fff.h
+/home/vany/FFF_UnitTest/example/weak_linking/src/fff.h
+gtest/gtest.h
+-
+
